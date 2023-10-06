@@ -1,15 +1,15 @@
 
 utilisateurs
-	name;
-	thisfirstName;
-	thiuserName;
-	mail;
-	city;
-	zipCode;
-	tcontry;
-	road;
-	age;
-	birthday;
+	name
+	firstName
+	userName
+	mail
+	city
+	zipCode
+	tcontry
+	road
+	age
+	birthday
 
 	//Pour les cartes de payment.
 	n°de la carte 
@@ -20,6 +20,9 @@ utilisateurs
 	user,
 	modo,
 	admin,
+
+
+
 
 messages
 
