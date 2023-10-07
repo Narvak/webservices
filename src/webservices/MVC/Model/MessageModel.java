@@ -19,7 +19,7 @@ public class MessageModel {
 	public String getName() {
 		return name;
 	}
-
+	
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -55,10 +55,4 @@ public class MessageModel {
 	public void setMessage(String message) {
 		this.message = message;
 	}
-	
-	
-	
-	
-	
-	
 }
