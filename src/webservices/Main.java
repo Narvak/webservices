@@ -4,13 +4,17 @@ public class Main {
 	
 	//main class
 	public static void main(String args[]) {
-		System.out.println("Start.");
-		System.out.println("Webservice is open.");
-		System.out.println("");
-		System.out.println("");
-		
-		primary();
-		secondary();
+		try {
+			System.out.println("Start.");
+			System.out.println("Webservice is open.");
+			System.out.println("");
+			System.out.println("");
+			
+			primary();
+			secondary();
+		} catch (Exception e) {
+			System.out.println(e);
+		}
 	}
 	
 	
@@ -18,10 +22,14 @@ public class Main {
 	
 	//primary class and is not the main class
 	public static void primary() {
-		System.out.println("Primary start.");
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
+		try {
+			System.out.println("Primary start.");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+		} catch (Exception e) {
+			System.out.println(e);
+		}
 	}
 	
 	
@@ -29,10 +37,14 @@ public class Main {
 	
 	//secondary class
 	public static void secondary() {
-		System.out.println("Secondary start.");
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
+		try {
+			System.out.println("Secondary start.");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+		} catch (Exception e) {
+			System.out.println(e);
+		}
 	}
 	
 	
