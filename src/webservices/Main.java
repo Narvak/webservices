@@ -7,8 +7,6 @@ public class Main {
 		try {
 			System.out.println("Start.");
 			System.out.println("Webservice is open.");
-			System.out.println("Primary class.");
-			System.out.println("secondary class.");
 			
 				//execution of static primary and secondary class.
 				primary();
@@ -25,9 +23,6 @@ public class Main {
 	public static void primary() {
 		try {
 			System.out.println("Primary start.");
-			System.out.println("");
-			System.out.println("");
-			System.out.println("");
 		} catch (Exception e) {
 			System.out.println(e);
 		}
@@ -40,9 +35,6 @@ public class Main {
 	public static void secondary() {
 		try {
 			System.out.println("Secondary start.");
-			System.out.println("");
-			System.out.println("");
-			System.out.println("");
 		} catch (Exception e) {
 			System.out.println(e);
 		}
