@@ -6,20 +6,22 @@ public class MessageModel {
 	private String phoneNumber;
 	private String mail;
 	private String society;
+	private String objet;
 	private String message;
 	
-	public Message(String name, String phoneNumber, String mail, String society, String message) {
+	public Message(String name, String phoneNumber, String mail, String society, String objet, String message) {
 		this.name = name;
 		this.phoneNumber = phoneNumber;
 		this.mail = mail;
 		this.society = society;
+		this.objet = objet;
 		this.message = message;
 	}
 	
 	public String getName() {
 		return name;
 	}
-	
+
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -48,6 +50,14 @@ public class MessageModel {
 		this.society = society;
 	}
 
+	public String getObjet() {
+		return objet;
+	}
+
+	public void setObjet(String objet) {
+		this.objet = objet;
+	}
+
 	public String getMessage() {
 		return message;
 	}
@@ -55,4 +65,8 @@ public class MessageModel {
 	public void setMessage(String message) {
 		this.message = message;
 	}
+
+	
+	
+	
 }

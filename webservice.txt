@@ -6,23 +6,28 @@ utilisateurs
 	mail
 	city
 	zipCode
-	tcontry
+	contry
 	road
 	age
 	birthday
 
 	//Pour les cartes de payment.
-	n°de la carte 
+	n° de la carte 
 	date de peramption
 	cvv
 
 	//roles
-	user,
-	modo,
-	admin,
+	user
+	modo
+	admin
 
 
 
 
 messages
-
+	name
+	phoneNumber
+	mail
+	society
+	objet
+	message
