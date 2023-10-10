@@ -22,48 +22,39 @@ public class PostCommerce {
 	public String getTitle() {
 		return title;
 	}
-
-
+	
 	public void setTitle(String title) {
 		this.title = title;
 	}
-
-
+	
 	public String getCategorie() {
 		return categorie;
 	}
-
-
+	
 	public void setCategorie(String categorie) {
 		this.categorie = categorie;
 	}
-
-
+	
 	public String getDescription() {
 		return description;
 	}
-
-
+	
 	public void setDescription(String description) {
 		this.description = description;
 	}
-
-
+	
 	public String getPrice() {
 		return price;
 	}
-
-
+	
 	public void setPrice(String price) {
 		this.price = price;
 	}
-
-
+	
 	public String getCommentaire() {
 		return commentaire;
 	}
-
-
+	
 	public void setCommentaire(String commentaire) {
 		this.commentaire = commentaire;
 	}
