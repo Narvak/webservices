@@ -1,5 +1,27 @@
+//package
 package webservices.MVC.Model;
 
+
+
+
+//import
+import java.applet.*;
+import java.awt.*;
+import java.io.*;
+//import java.lang.*;
+import java.math.*;
+import java.net.*;
+import java.rmi.*;
+import java.security.*;
+import java.sql.*;
+import java.text.*;
+import java.util.*;
+import javax.swing.*;
+
+
+
+
+//class
 public class PostCommerce {
 	
 	
