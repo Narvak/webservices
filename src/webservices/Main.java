@@ -35,6 +35,8 @@ public class Main {
 				secondary();
 		} catch (Exception e) {
 			System.out.println(e);
+			System.out.println("Close.");
+			System.out.println("Webservice is NOT open.");
 		}
 	}
 	
@@ -47,6 +49,7 @@ public class Main {
 			System.out.println("Primary start.");
 		} catch (Exception e) {
 			System.out.println(e);
+			System.out.println("Primary close.");
 		}
 	}
 	
@@ -59,6 +62,7 @@ public class Main {
 			System.out.println("Secondary start.");
 		} catch (Exception e) {
 			System.out.println(e);
+			System.out.println("Secondary close.");
 		}
 	}
 	

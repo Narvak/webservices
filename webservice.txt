@@ -1,5 +1,4 @@
-
-utilisateurs
+Users :
 	name
 	firstName
 	userName
@@ -11,20 +10,23 @@ utilisateurs
 	age
 	birthday
 
+
+
 	//Pour les cartes de payment.
 	n° de la carte 
 	date de peramption
 	cvv
 
 	//roles
-	user
-	modo
-	admin
+	user 
+	modo 
+	admin 
+	super-admin [full permition]
 
 
 
 
-messages
+message :
 	name
 	phoneNumber
 	mail
