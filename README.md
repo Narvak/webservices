@@ -10,4 +10,4 @@
 ## Doc
 
 #### structure.drawio = file to see the structure and you can open it with https://app.diagrams.net/
-#### 
+#### webservice.txt = This is the file which contains certain information concerning either the structure or the components to be developed.
